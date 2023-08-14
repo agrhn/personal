@@ -1,0 +1,50 @@
+html {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("images/background.jpeg");
+    background-size: cover;
+}
+
+.body-container {
+    display: flex;
+    min-height: 100%;
+    justify-content: space-between;
+}
+
+.menu-left, .menu-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 200px;
+    width: 20%;
+    min-height: 100%;
+}
+
+.btn {
+    margin: 15px 30px;
+    width: 150px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/*
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 80%;
+}
+
+#my-photo {
+    width: 200px;
+}*/
