@@ -3,8 +3,14 @@ html {
     margin: 0;
 }
 
-body {
+.home-body {
     background-image: url("images/background.jpeg");
+    background-size: cover;
+}
+
+.page-body {
+    margin-top: -150px;
+    background-image: url("images/paper.jpeg");
     background-size: cover;
 }
 
@@ -35,12 +41,51 @@ body {
 }
 
 .btn:hover{
-    width: 300px;
+    width: 200px;
     border-radius: 15px;
     cursor: pointer;
 }
 
-.its-me {
+.btn.selected-btn {
+    background-color: #720D0D;
+    color: lightgray;
+    width: 200px;
+}
+
+.home-btn-container {
+    display: flex;
+    justify-content: end;
+}
+
+.home-btn {
+    margin-right: 30px;
+}
+
+.inline-icon {
+   vertical-align: bottom;
+   font-size: 20px !important;
+}
+
+.page-content-container {
+    padding-top: 220px;
+    width: 40%;
+}
+
+.page-content {
+    margin-bottom: 15px;
+}
+
+.page-title{
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.page-detail{
+    font-size: 20px;
+    margin: 5px 15px;
+}
+
+.my-name {
     position: absolute;
     left: 24%;
     bottom: 2%;
@@ -50,16 +95,3 @@ body {
     writing-mode: tb-rl;
     transform: rotate(-180deg);
 }
-
-/*
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    width: 80%;
-}
-
-#my-photo {
-    width: 200px;
-}*/
