@@ -23,6 +23,10 @@ body {
     min-height: 100%;
 }
 
+.menu-right {
+    align-items: end;
+}
+
 .btn {
     margin: 15px 30px;
     width: 150px;
@@ -34,6 +38,17 @@ body {
     width: 300px;
     border-radius: 15px;
     cursor: pointer;
+}
+
+.its-me {
+    position: absolute;
+    left: 24%;
+    bottom: 2%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
 }
 
 /*
