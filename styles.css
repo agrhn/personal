@@ -23,7 +23,6 @@ html {
 .menu-left, .menu-right {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     padding-top: 200px;
     width: 20%;
     min-height: 100%;
@@ -73,6 +72,10 @@ html {
 
 .page-content {
     margin-bottom: 15px;
+}
+
+.skills-content {
+    display: flex;
 }
 
 .page-title{
