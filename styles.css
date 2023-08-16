@@ -52,8 +52,9 @@ html {
 }
 
 .home-btn-container {
-    display: flex;
-    justify-content: end;
+    position: fixed;
+    right: 10px;
+    bottom: 0;
 }
 
 .home-btn {
@@ -86,6 +87,12 @@ html {
 .page-detail{
     font-size: 20px;
     margin: 5px 15px;
+}
+
+.pdf-viewer {
+    margin-left: -20%;
+    width: 140%;
+    height: 170%;
 }
 
 .my-name {

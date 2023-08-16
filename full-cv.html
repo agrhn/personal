@@ -2,27 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>CV</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body class="home-body">
+<body class="page-body">
     <div class="body-container">
         <div class="menu-left">
             <a href="education.html"><button class="btn">Education</button></a>
             <a href="work.html"><button class="btn">Work</button></a>
             <a href="skills.html"><button class="btn">Skills</button></a>
-            <a href="full-cv.html"><button class="btn">Full CV</button></a>
+            <button class="btn selected-btn">Full CV</button>
+        </div>
+        <div class="page-content-container">
+            <iframe class="pdf-viewer" src="images/CV-05-06-23.pdf"></iframe>
         </div>
         <div class="menu-right">
-            <button class="btn">Open Source Projects</button>
-            <button class="btn">Selected Projects</button>
+            <button class="btn">Language</button>
+            <button class="btn">Music</button>
             <button class="btn">Movies</button>
             <button class="btn">Sports</button>
         </div>
     </div>
-    <div class="my-name">
-        <p>Ahmet Gürhan</p>
-        <p>FullStack<br>Developer</p>
+    <div class="home-btn-container">
+        <a href="index.html"><button class="btn home-btn">Return Home <i class="inline-icon material-icons">home</i></button></a>
     </div>
 </body>
 </html>
